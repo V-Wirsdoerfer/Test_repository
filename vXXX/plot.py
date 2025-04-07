@@ -17,4 +17,4 @@ ax2.legend(loc="best")
 
 fig.savefig("build/plot.pdf")
 
-# Test commit 
+# Test commit
