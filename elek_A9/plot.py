@@ -3,6 +3,7 @@ import numpy as np
 
 
 f, U_out, delta_t = np.genfromtxt("data.txt", unpack=True)
+delta_t *=1e-6
 
 U_in = 10
 
