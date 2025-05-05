@@ -17,8 +17,13 @@ import numpy as np
 #
 #fig.savefig("build/plot.pdf")
 #
-print("Eingabe: ")
-testin = input()
-print("Du hast geschrieben:", testin)
+#print("Eingabe: ")
+#testin = input()
+#print("Du hast geschrieben:", testin)
+
+
+a = np.array([1,2,4,7,11,16])
+print("diffs:", np.diff(a))
+
 
 # Test commit
