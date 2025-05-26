@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import scipy.constants as const
 
 #x = np.linspace(0, 10, 1000)
 #y = x ** np.sin(x)
@@ -25,5 +26,6 @@ import numpy as np
 a = np.array([1,2,4,7,11,16])
 print("diffs:", np.diff(a))
 
+print("const:", const.k)
 
 # Test commit
